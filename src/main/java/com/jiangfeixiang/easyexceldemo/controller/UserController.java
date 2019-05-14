@@ -1,6 +1,5 @@
 package com.jiangfeixiang.easyexceldemo.controller;
 
-import com.alibaba.excel.metadata.BaseRowModel;
 import com.jiangfeixiang.easyexceldemo.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,4 +31,5 @@ public class UserController {
        }
         return userList;
     }
+
 }
